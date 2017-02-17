@@ -4,7 +4,6 @@
 """
 import string
 
-import numpy
 import stop_words
 
 import config
