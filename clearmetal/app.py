@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""The main ClearMeta code challenge Celery app. 
+"""The main ClearMetal code challenge Celery app. 
 
 Run with this signature
     celery -A clearmetal.app.app worker --pidfile=app.pid -n app -Q app,canvas
