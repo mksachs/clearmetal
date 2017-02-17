@@ -114,3 +114,14 @@ You should see a line like this:
 
 which indicates that the scheduler is running.
 
+## Troubleshooting
+
+Celery stores the schedule information in a file called `celerybeat-schedule`. If you kill Celery and then re-start it
+sometimes strange things can happen it this file is still there. To prevent this either delete the file before starting
+Celery, or re-run:
+
+```bash
+python clearmetal/utilities.py set_foundation clearmetal_app -p set_me
+```
+
+
